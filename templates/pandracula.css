@@ -1,0 +1,449 @@
+/* pandracula.css: 
+ * A match made with Elegance in Darkness
+ * Layout and Elegance ideas from 
+ * https://gist.github.com/killercup/5917178
+ * colorscheme from
+ * https://github.com/dracula/dracula-theme
+ * and CSS hints from
+ * <I really cannot find the link it is something like dracula.css
+ * which is inactive project now. If you can find the link please contact me
+ * so that I can add proper citation. This was the boilerplate css for this theme> 
+ *
+ * Plus lots help from [Chinmay Pandhare](https://github.com/ccpandhare)
+ * I am adding Dracula's color palette since it will be easier for changing according to
+ * your preference.
+ *| Name         | Value   |
+ *|--------------|---------|
+ *| Background   | #282a36 |
+ *| Current Line | #44475a |
+ *| Selection    | #44475a |
+ *| Foreground   | #f8f8f2 |
+ *| Comment      | #6272a4 |
+ *| Cyan         | #8be9fd |
+ *| Green        | #50fa7b |
+ *| Orange       | #ffb86c |
+ *| Pink         | #ff79c6 |
+ *| Purple       | #bd93f9 |
+ *| Red          | #ff5555 |
+ *| Yellow       | #f1fa8c |
+ * */
+
+html {
+   font-size: 100%;
+   overflow-y: scroll;
+   -webkit-text-size-adjust: 100%;
+   -ms-text-size-adjust: 100%;
+   background-image: none !important;
+   background-color: #282a36 !important;
+}
+
+body {
+   /*TODO: System fonts of users. Less bloat*/
+   font-family: Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
+   font-size: 12px;
+   line-height: 1.7;
+   padding: 1em;
+   margin: auto;
+   max-width: 42em;
+   background-image: none !important;
+   background-color: #282a36 !important;
+}
+
+body * {
+   color: #f8f8f2 ;
+   background-color: #282a36 ;
+}
+
+a,
+a * {
+   color: #50fa7b !important;
+   background-color: transparent !important;
+   text-decoration: none;
+}
+
+a:visited,
+a:visited * {
+   color: #6272a4 !important;
+}
+
+a:hover,
+a:hover *{
+   color: #f1fa8c !important;
+}
+
+a:active,
+a:active *{
+   font-weight: bold !important;
+   color: #8be9fd !important;
+}
+
+a:focus {
+   outline: thin dotted;
+}
+
+a:visited:hover,
+a:visited:hover *,
+span[onclick]:hover,
+div[onclick]:hover,
+[role="link"]:hover,
+[role="link"]:hover *,
+[role="button"]:hover *,
+[role="menuitem"]:hover,
+[role="menuitem"]:hover *,
+.link:hover,
+.link:hover * {
+   color: #f1fa8c !important;
+}
+
+table {
+   margin-bottom: 2em;
+   border-bottom: 1px solid #ddd;
+   border-right: 1px solid #ddd;
+   border-spacing: 0;
+   border-collapse: collapse;
+   background-color: #282a36 !important;
+}
+
+table th {
+   padding: .2em 1em;
+   background-color: #eee;
+   border-top: 1px solid #ddd;
+   border-left: 1px solid #ddd;
+   background-color: #282a36 !important;
+}
+
+table td {
+   padding: .2em 1em;
+   border-top: 1px solid #ddd;
+   border-left: 1px solid #ddd;
+   vertical-align: top;
+   background-color: #282a36 !important;
+}
+
+p {
+   margin: 1em 0;
+}
+
+img {
+   border: 0;
+   -ms-interpolation-mode: bicubic;
+   vertical-align: middle;
+}
+img {
+   max-width: 100% !important;
+}
+
+/*Headers and their headache*/
+h1, h2, h3, h4, h5, h6 {
+   line-height: 125%;
+   margin-top: 2em;
+   font-weight: normal;
+   color: #ff79c6 !important;
+}
+
+h4, h5, h6 {
+   font-weight: bold;
+}
+
+h1 {
+   font-size: 2.5em;
+}
+
+h2 {
+   font-size: 2em;
+}
+
+h3 {
+   font-size: 1.5em;
+}
+
+h4 {
+   font-size: 1.2em;
+}
+
+h5 {
+   font-size: 1em;
+}
+
+h6 {
+   font-size: 0.9em;
+}
+
+/*blockquote*/
+[id*="overlay"],
+[id*="lightbox"], 
+blockquote {
+   margin: 0;
+   /*background-color: rgba(68, 71, 90, 1) !important;*/
+   padding-left: 3em;
+   border-left: 0.5em #EEE solid;
+}
+
+figure {
+   display: block;
+   text-align: center;
+   margin: 1em 0;
+}
+
+figure img {
+   border: none;
+   margin: 0 auto;
+}
+
+figcaption {
+   font-size: 0.8em;
+   font-style: italic;
+   margin: 0 0 .8em;
+}
+
+.author {
+   font-size: 1.2em;
+   text-align: center;
+}
+
+hr {
+   display: block;
+   height: 2px;
+   border: 0;
+   border-top: 1px solid #f1fa8c;
+   border-bottom: 1px solid #bd93f9;
+   margin: 1em 0;
+   padding: 0;
+}
+
+a.highlight,
+a.highlight *,
+a.active,
+a.active *,
+.selected,
+.selected *,
+   *::-moz-selection,
+   *::selection 
+   [href="#"] {
+      font-weight: bold !important;
+      color: #282a36 !important;
+      background: #f1fa8c !important;*/
+}
+
+
+a::-moz-selection {
+   background: rgba(255, 255, 0, 0.3);
+   color: #0645ad;
+}
+
+a::selection {
+   background: rgba(255, 255, 0, 0.3);
+   color: #0645ad;
+}
+
+pre, code, kbd, samp {
+   font-family: monospace, monospace;
+   _font-family: 'courier new', monospace;
+   font-size: 0.98em;
+}
+
+input,
+select,
+button,
+[role="button"],
+a.button,
+a.submit,
+a.BigButton,
+a.TabLink,
+.install[onclick] {
+   text-indent: 5px;
+   /* commented the following 3 lines because checkboxes are not seen
+   appearance: none !important;
+   -moz-appearance: none !important;
+   -webkit-appearance: none !important;
+    */ 
+background: #44475a !important;
+}
+input[type="checkbox"] {
+   margin-bottom: -2px;
+
+}
+
+div,
+ul,
+li {
+   background-image: none !important;
+}
+
+pre {
+   white-space: pre;
+   white-space: pre-wrap;
+   word-wrap: break-word;
+}
+
+b, strong {
+   font-weight: bold;
+}
+
+dfn {
+   font-style: italic;
+}
+
+sub, sup {
+   font-size: 75%;
+   line-height: 0;
+   position: relative;
+   vertical-align: baseline;
+}
+
+sup {
+   top: -0.5em;
+}
+
+sub {
+   bottom: -0.25em;
+}
+
+ul, ol {
+   margin: 1em 0;
+   padding: 0 0 0 2em;
+}
+
+li p:last-child {
+   margin-bottom: 0;
+}
+
+ul ul, ol ol {
+   margin: .3em 0;
+}
+
+dl {
+   margin-bottom: 1em;
+}
+
+dt {
+   font-weight: bold;
+   margin-bottom: .8em;
+}
+
+dd {
+   margin: 0 0 .8em 2em;
+}
+
+dd:last-child {
+   margin-bottom: 0;
+}
+
+pre,
+dl {
+   background-color: #282a36 !important;
+}
+
+/*table data properties*/
+strong,
+[id*="headline"],
+[class*="headline"],
+[id*="header"],
+[class*="header"],
+[class*="header"] td {
+   color: #ff79c6 !important;
+}
+
+textarea {
+   appearance: none !important;
+   -moz-appearance: none !important;
+   -webkit-appearance: none !important;
+   background: #44475a !important;
+}
+
+/* Adaptive fonts */
+@media only screen and (min-width: 480px) {
+   body {
+      font-size: 14px;
+   }
+}
+@media only screen and (min-width: 768px) {
+   body {
+      font-size: 16px;
+   }
+}
+
+/* This is for printer friendliness. Keeping it since it was in pandoc.css */
+@media print {
+   * {
+      background: transparent !important;
+      color: black !important;
+      filter: none !important;
+      -ms-filter: none !important;
+   }
+
+   body {
+      font-size: 12pt;
+      max-width: 100%;
+   }
+
+   a, a:visited {
+      text-decoration: underline;
+   }
+
+   hr {
+      height: 1px;
+      border: 0;
+      border-bottom: 1px solid black;
+   }
+
+   a[href]:after {
+      content: " (" attr(href) ")";
+   }
+
+   abbr[title]:after {
+      content: " (" attr(title) ")";
+   }
+
+   .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after {
+      content: "";
+   }
+
+   pre, blockquote {
+      border: 1px solid #999;
+      padding-right: 1em;
+      page-break-inside: avoid;
+   }
+
+   tr, img {
+      page-break-inside: avoid;
+   }
+
+   img {
+      max-width: 100% !important;
+   }
+
+   @page :left {
+      margin: 15mm 20mm 15mm 10mm;
+   }
+
+   @page :right {
+      margin: 15mm 10mm 15mm 20mm;
+   }
+
+   p, h2, h3 {
+      orphans: 3;
+      widows: 3;
+   }
+
+   h2, h3 {
+      page-break-after: avoid;
+   }
+}
+
+ins {
+   /*background: #ff9;*/
+   background: #44475a;
+   color: #f8f8f2;
+   /*color: #000;*/
+   text-decoration: none;
+}
+
+mark {
+   background: #ff0;
+   /* background: #ff0;*/
+   color: #f8f8f2;
+   /*color: #000;*/
+   font-style: italic;
+   font-weight: bold;
+}
