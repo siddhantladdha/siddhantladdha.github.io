@@ -15,6 +15,7 @@ seems broken or incomplete feel free to [contact me](./contact.html), so that I 
 
 - [Index](./index.html)
 - [Introduction](./introduction.html)
+<a href="https://siddhantladdha.com/local_assets/Siddhant_Laddha_CV.pdf" target="_blank">- CV</a>
 - [CV](./local_assets/Siddhant_Laddha_CV.pdf)
 - [Contact](./contact.html)
 - [Bounty](./bounty.html)
