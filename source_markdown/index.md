@@ -1,7 +1,7 @@
 ---
 title: Circuits and Stuff
 subtitle: Welcome to my World!!
-date_updated: 30 October 2020
+date_updated: 15 November 2020
 ---
 
 # Pinned Notes
@@ -15,6 +15,7 @@ seems broken or incomplete feel free to [contact me](./contact.html), so that I 
 
 - [Index](./index.html)
 - [Introduction](./introduction.html)
+- [CV](./local_assets/Siddhant_Laddha_CV.pdf)
 - [Contact](./contact.html)
 - [Bounty](./bounty.html)
 - [License and Disclaimer](./license_and_disclaimer.html)
