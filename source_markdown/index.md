@@ -1,7 +1,7 @@
 ---
 title: Circuits and Stuff
 subtitle: Welcome to my World!!
-date_updated: 15 November 2020
+date_updated: 12 December 2020
 ---
 
 # Pinned Notes
