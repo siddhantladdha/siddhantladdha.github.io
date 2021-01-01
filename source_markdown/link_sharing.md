@@ -1,7 +1,7 @@
 ---
 title: Link Sharing
 subtitle: Reader's discretion advised is a fancy way of saying don't be stupid. 
-date_updated: 30 October 2020
+date_updated:  1 January 2021
 ---
 
 - If I explicitly sent you a link to one of my pages/posts/notes, it was sent(or in some cases *published*) with the thought that it could be useful to you. I really don't care if you use the resources I sent you or not. I felt sharing it with you was useful hence I did so.

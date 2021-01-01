@@ -1,7 +1,7 @@
 ---
 title: License and Disclaimer
 subtitle: Better call saul
-date_updated: 30 October 2020
+date_updated:  1 January 2021
 ---
 
 # Licensing of Content on this Website

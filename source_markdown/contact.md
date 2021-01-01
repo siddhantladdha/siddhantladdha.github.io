@@ -1,7 +1,7 @@
 ---
 title: Contact Info
 subtitle: I usually don't respond to Bots and Cyborgs.
-date_updated: 30 October 2020
+date_updated:  1 January 2021
 ---
 
 # E-Mail

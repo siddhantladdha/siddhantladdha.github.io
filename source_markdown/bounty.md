@@ -1,7 +1,7 @@
 ---
 title: Bounties
 subtitle: People talk about downloading their minds, I think beyond. I outsource my headaches.
-date_updated: 30 October 2020
+date_updated:  1 January 2021
 ---
 
 # What is this page about?
