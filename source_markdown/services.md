@@ -61,6 +61,7 @@ to task-oriented approach, I have undertaken various projects and successfully d
 
 Following is the list of questions that I get frequently asked in E-mail. I am Posting them here so that you don't 
 have to ask them again!!
+
 - **Why are your charges for Research Paper notes so high?**
   - Yes they are quite high for one student. However, whenever I am approached by students for this service,
    it is usually that they are assigned to read the paper for about half-semester. And it is the same paper 
