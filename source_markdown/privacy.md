@@ -36,3 +36,7 @@ It would have saved me hours of reading and confusion had I known about it. This
 
 - [The Hated One](https://www.youtube.com/channel/UCjr2bPAyPV7t35MvcgT3W8Q)
 - [TechLore](https://www.youtube.com/channel/UCs6KfncB4OV6Vug4o_bzijg)
+
+## Useful websites
+
+- [PrivacyToolsIO](https://www.privacytools.io/)
