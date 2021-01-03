@@ -25,3 +25,4 @@ seems broken or incomplete feel free to [contact me](./contact.html), so that I 
 
 - [Linux](./linux.html)
 - [Programming](./programming.html)
+- [Privacy](./privacy.html)
