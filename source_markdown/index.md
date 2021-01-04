@@ -1,7 +1,7 @@
 ---
 title: Circuits and Stuff
 subtitle: Welcome to my World!!
-date_updated:  3 January 2021
+date_updated:  4 January 2021
 ---
 
 # Pinned Notes
@@ -20,6 +20,7 @@ seems broken or incomplete feel free to [contact me](./contact.html), so that I 
 - [License and Disclaimer](./license_and_disclaimer.html)
 - [Link Sharing](./link_sharing.html)
 - [Services](./services.html)
+- [Changelog](./changelog.html)
 
 ## Notes
 
