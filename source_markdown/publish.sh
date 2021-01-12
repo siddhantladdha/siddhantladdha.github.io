@@ -1,5 +1,5 @@
 #!/usr/bin/bash
 cd ..
-print "Changing Directory"
+printf "Changing Directory\n"
 make all
-print "Done Publishing"
+printf "Done Publishing\n"
