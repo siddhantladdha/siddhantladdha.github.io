@@ -1,7 +1,7 @@
 ---
 title: GNU Linux
 subtitle: DNA is bloat, let's use RNA 
-date_updated:  1 January 2021
+date_updated: 28 March 2021
 ---
 
 ## Linux Youtubers
@@ -14,7 +14,7 @@ date_updated:  1 January 2021
 - [DistroTube](https://www.youtube.com/channel/UCVls1GmFKf6WlTraIb_IaJg)
   - One of my favourite videos by him is [Windows does it better than Linux](https://www.youtube.com/watch?v=lOYH5fO8weA) 
 - [Greg Hurrell](https://www.youtube.com/channel/UCXPHFM88IlFn68OmLwtPmZA)
-  - In process of seeing his Vim Screencasts.
+  - Quite detailed Vim videos.
 - [Brodie Robertson](https://www.youtube.com/channel/UCld68syR8Wi-GY_n4CaoJGA)
 
 ## Awesome Websites
@@ -32,7 +32,7 @@ for the distribution. As far as aesthetics and user friendliness is concerned no
 That being said, I choose to call Elementary as **a Nightmare dressed like a daydream.**[^taylor_swift]. It is awesome, if you 
 never tinker and leave your OS as is, however, once you try to tinker, it will be a restrictive experience. In addition to that, 
 stable release distributions never appealed to me as a non-server user. Not getting the most updated versions of my favourite 
-programs is a massive turn off for me.
+programs is a massive red flag for me.
 
 However, if you are a beginner or installing Linux on your parent's laptop, Elementary is the way to go! [The Linux Experiment](https://www.youtube.com/channel/UC5UAwBUum7CPN5buc-_N1Fw) makes quite good videos about Elementary OS and it's app
 ecosystem.
@@ -41,13 +41,13 @@ ecosystem.
 
 ### Arch Linux
 
-If you are a power user/want to learn a lot about GNU+Linux take a look at Arch Linux. You Distro will anyway guide you to 
+If you are a power user/want to learn a lot about GNU+Linux take a look at Arch Linux. Your distro will anyway guide you to 
 [Arch Wiki](https://wiki.archlinux.org/) in many cases. You won't be disappointed that's for sure. I use Arch Linux as my 
 daily driver with KDE Desktop environment. A few points for newbies.
 
 1. There is one and only one *useful* installation guide in existence for Arch Linux which is aptly served by [Installation Guide](https://www.wiki.archlinux.org/index.php/installation_guide)
 
-2. Why are you installing Arch Linux? This to have a clear idea of what you need and what you don't. If you keep on installing all the packages listed on the ArchWiki then you will completely lose the essence of customisation Arch Linux has to offer. 
+2. Why are you installing Arch Linux? Answer this to to have a clear idea of what you need and what you don't. If you keep on installing all the packages listed on the ArchWiki then you will completely lose the essence of customisation Arch Linux has to offer. 
 For instance, my reason for installing Arch Linux is it's high customisability and rolling release nature which allows me to
 have full control over what software is installed and allows me to use new features as soon as they leave testing repositories
 and not wait for 6 months until official software repositories are updated.
@@ -55,12 +55,12 @@ and not wait for 6 months until official software repositories are updated.
 3. Maintaining your installation: If you think that Arch Linux is like build once and forget, then you might not be wrong!! If
 something doesn't work after/during, upgrades refer the Arch Mailing list. Usually some bugs rarely escape the 
 testing repository and some of these package updates require manual intervention. In the _linux pop culture_ many people make
-jokes about this issue with Arch. However, this doesn't happen too often for me around once every 6 months or so and that to 
+jokes about this issue with Arch. However, this doesn't happen too often for me around once every 6 months and that to 
 when I was not subscribed to the mailing list.
 
-## Why community matters
+## Must Read
 
-- Visit [link](https://lkml.org/lkml/2004/12/20/255)
+- [Should you bother with trivial patches?](https://lkml.org/lkml/2004/12/20/255)
 
 ## Lifelong Community Resources
 
