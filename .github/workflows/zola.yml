@@ -21,6 +21,6 @@ jobs:
       with:
         submodules: true
     - name: Build and deploy
-      uses: ${{ env.ACTION_USERNAME }}/zola-deploy-action@${{ env.ACTION_COMMIT_HASH }}
+      uses: $ACTION_USERNAME/zola-deploy-action@$ACTION_COMMIT_HASH
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
