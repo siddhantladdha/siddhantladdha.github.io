@@ -7,6 +7,10 @@ on: workflow_dispatch
   #branches:
    #- main
 
+env:
+  ACTION_USERNAME: Unmamevar
+  ACTION_COMMIT_HASH: 90cd842959b82e0c012601be18ae249d6cdb1669
+
 jobs:
   build:
     name: Publish site
@@ -17,6 +21,6 @@ jobs:
       with:
         submodules: true
     - name: Build and deploy
-      uses: shalzz/zola-deploy-action@v0.21.0
+      uses: ${{ env.ACTION_USERNAME }}/zola-deploy-action@${{ env.ACTION_COMMIT_HASH }}
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
