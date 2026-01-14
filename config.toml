@@ -37,6 +37,7 @@ theme = "dracula"
 error_on_missing_language = true
 
 [extra]
+math = true
 # Choose color scheme: "bear" (default), "dracula"
 # This is site wide color scheme.
 color_scheme = "dracula"
