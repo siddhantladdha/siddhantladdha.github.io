@@ -1,0 +1,58 @@
+title = "Unloading..."
+base_url = "https://siddhantladdha.com"
+theme = "zola-bearblog"
+description = "Loading..."
+
+generate_feeds = true
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = false
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = true
+
+taxonomies = [
+  { name = "tags", feed = true },
+]
+
+default_language = "en"
+
+[translations]
+no_posts = "No posts yet"
+remove_filter = "Remove filter"
+filtering_for = "Filtering for"
+made_with = "Made with"
+table_of_contents = "Table of contents"
+language = "language"
+site = "site"
+
+[markdown]
+[markdown.highlighting]
+theme = "dracula"
+error_on_missing_language = true
+
+[extra]
+math = true
+color_scheme = "dracula"
+date_format = "%Y-%m-%d"
+webserver_sends_csp_headers = true
+language_switcher = false
+translations = [
+  { code = "en", name = "English" },
+]
+
+[extra.table_of_contents]
+show = true
+max_level = 2
+visible_on_load = false
+
+[[extra.main_menu]]
+name = "Home"
+url = "@/_index.md"
+
+[[extra.main_menu]]
+name = "About Me"
+url = "@/about_me.md"
+
+[[extra.main_menu]]
+name = "Blog"
+url = "@/blog/_index.md"
