@@ -18,6 +18,7 @@ language = "language"
 site = "site"
 
 [markdown.highlighting]
+theme = "dracula"
 error_on_missing_language = true
 
 [extra]
