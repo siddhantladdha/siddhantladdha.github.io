@@ -34,6 +34,7 @@ theme = "dracula"
 include_description = true
 truncate_content_length = 100
 index_format = "elasticlunr_javascript"
+[translations]
 no_posts = "No posts yet"
 remove_filter = "Remove filter"
 filtering_for = "Filtering for"
