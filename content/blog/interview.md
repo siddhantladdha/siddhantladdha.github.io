@@ -50,7 +50,7 @@ especially for RF module interviews.
 ## Revision material
 
 - [Classical Control Systems Playlist](https://youtube.com/playlist?list=PLUMWjy5jgHK1NC52DXXrriwihVrYZKqjk&si=5RFx7VnwkC9qgxrN) by Brian Douglas. If you have no confidence in your control systems fundamentals start from the first video! You can skip Routh-Hurwitz videos and maybe Root-Locus if you are in too much hurry. Watch till (including) the Designing a Lead-Lag compensator video. IC designer without basic understanding
-of control systems theory is a liability.
+of control systems theory (specifically the stability aspect) might be considered a red flag by seasoned interviewers. 
 
 - In the Razavi's 'blue book' solve the problems in Chapter 2. Atleast 2.1-2.12 for warmup.
 Think of these as the tongue-twisters used by news anchors and public speakers. You'd be surprised how well it helps especially if you have been a bit rusty. Don't skip the PMOS problems.
@@ -62,7 +62,7 @@ is my favourite resource for revising basics of electromagnetics before any RF i
 This book contains *as little math as humanely possible* for actually understanding the essence
 of Maxwell's equations. If you think you don't need E-mag fundamentals for your "RF" interview,
 you might be eligible for an [award](https://darwinawards.com/darwin/), and actually
-might be the first ex-RF designer to be there.
+might be the first ex-RF designer to be there. One interesting point to mention here is that, if you typically ask an experienced RF designer about their confidence in E-mag fundamentals, they will reply with “Ahh its been long since I actually used it for my day to day job” and you might take that as a sign to skip reviewing this section. What they might forget to tell you is that they *did* rigorously(not mathematical rigor) study this at least once in their life and have a good mental/intuitive model of the basics imprinted in their thought process to the point that it feels natural to them. So yes, if you don’t have a good mental model of this, please focus on fundamentals. 
 - [Microwaves101](https://www.microwaves101.com/) will be essential to revise some things you
 might have forgotten.
 - Download and Print copies of [Smith Chart](https://www.microwaves101.com/uploads/smith-chart-in-color.PDF)
